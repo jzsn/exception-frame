@@ -33,7 +33,7 @@
 	</sql>
 
 	<!-- 插入异常信息 -->
-	<insert id="insertException"  parameterType="com.enn.mcp.cmp.model.sys.ExceptionConfig">
+	<insert id="insertException"  parameterType="com.exception.dao.ExceptionConfigPO">
 		INSERT INTO SYS_EXCEPTION_CONFIG
 		(
 		provider_id,

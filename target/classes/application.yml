@@ -1,6 +1,0 @@
-
-datasource:
-  url: jdbc:mysql://10.22.29.100:3306/cmp?useUnicode=true&serverTimezone=UTC&nullNamePatternMatchesAll=true&characterEncoding=utf8
-  username: root
-  password: 1qazXSW@
-  driverClassName: com.mysql.jdbc.Driver

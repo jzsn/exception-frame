@@ -6,4 +6,5 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableApolloConfig(value = "application")
 public class ApolloConfig {
+
 }

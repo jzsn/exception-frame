@@ -17,6 +17,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <apollo.version>0.11.0</apollo.version>
     </properties>
 
 
@@ -36,6 +37,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -80,21 +86,35 @@
             <version>25.0-jre</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.enn.mcp</groupId>
+            <artifactId>common</artifactId>
+            <version>2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.enn.mcp</groupId>
+            <artifactId>iaas-base</artifactId>
+            <version>2.0</version>
+        </dependency>
+
 
         <dependency>
             <groupId>com.ctrip.framework.apollo</groupId>
             <artifactId>apollo-client</artifactId>
-            <version>0.11.0</version>
+            <version>${apollo.version}</version>
         </dependency>
+
         <dependency>
             <groupId>com.ctrip.framework.apollo</groupId>
             <artifactId>apollo-core</artifactId>
-            <version>0.11.0</version>
+            <version>${apollo.version}</version>
         </dependency>
+
         <dependency>
             <groupId>com.ctrip.framework.apollo</groupId>
             <artifactId>apollo-buildtools</artifactId>
-            <version>0.11.0</version>
+            <version>${apollo.version}</version>
         </dependency>
 
 
